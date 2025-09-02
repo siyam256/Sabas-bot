@@ -1,4 +1,7 @@
 import logging
+# httpx request log level কমানো
+logging.getLogger("httpx").setLevel(logging.WARNING)
+
 import os
 import pandas as pd
 import asyncio
@@ -15,7 +18,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, B
 # --- CONFIGURATION ---
 
 # ⚠️ Replace with your actual Telegram Bot Token
-TELEGRAM_BOT_TOKEN = "7981976929:AAEiNUylikPsJI8p7Jqu-EGi-Q9u79he7WE"
+TELEGRAM_BOT_TOKEN = "7862673148:AAEoxky6XWnmivceV6pbRk3oJxJ65oAtSsc"
 
 # --- USER ACCESS CONTROL CONFIG ---
 ADMIN_ID = 7145991193  # Default Admin User ID
