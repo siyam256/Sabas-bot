@@ -1,0 +1,1 @@
+upgrade python-telegram-bot pandas nest_asyncio
